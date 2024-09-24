@@ -1,0 +1,44 @@
+
+
+.honey-middle-right{
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+.honey-footer{
+    margin-top: 400px;
+    z-index: 5;
+    width: 100%;
+    position: relative;
+}
+.honey-flex{
+    display: flex;
+    position: relative;
+}
+.honey-body{
+    position: absolute;
+    height: 1850px;
+    width: 100%;
+    z-index: 1;
+    top: -150px;
+}
+.honey-head{
+    z-index: 5;
+    position: relative;
+}
+.honey-middle-left{
+    width: 120px;
+    z-index: 5;
+    position: relative;
+}
+.honey-black{
+    width: 100%;
+    height: 300px;
+}
+@media (max-width: 768px) {
+
+.honey-flex{
+    display: none;
+}
+    
+}

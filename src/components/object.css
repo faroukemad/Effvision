@@ -1,0 +1,15 @@
+body {
+    height: 1000px;
+}
+
+.svg-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+    svg {
+        width: 350px;
+    }
+}
